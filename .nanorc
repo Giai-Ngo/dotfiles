@@ -1,0 +1,5 @@
+set autoindent			# Enabling Auto Indentation
+set linenumbers			# Displaying Line Numbers
+set mouse			# Enabling Mouse Navigation
+set smooth			# Enable Smooth Scrolling
+set softwrap			# Enable Word Wrapping

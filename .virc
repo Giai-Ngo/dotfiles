@@ -1,0 +1,61 @@
+" General
+	set number			" Line numbers
+	set mouse=a			" Enable your mouse
+	set encoding=utf-8		" The encoding displayed
+	
+	set lbr!			" wrap in word
+	set linespace=6
+	set smartindent			" Makes indenting smart
+	set backspace=indent,eol,start	" allow backspacing over everything in insert mode
+	set autoindent 			" always set autoindenting on
+	set copyindent			" copy the previous indentation on autoindenting
+	set shiftround			" use multiple of shiftwidth when indenting with '<' and '>'
+	set showmatch			" set show matching parenthesis
+	
+	set nobackup			" This is recommended by coc
+	set nowritebackup		" This is recommended by coc
+	
+	set scrolloff=3
+	set showmode
+	set showcmd
+	set hidden			" if hidden is not set, TextEdit might fail.
+	set wildmenu
+	set wildmode=list:longest
+	set ruler
+	set laststatus=2
+	set undofile
+
+	set cmdheight=1			" Better display for messages
+	
+" Searching
+	set ignorecase			" ignore case when searching
+	set smartcase			" ignore case if search pattern is all lowercase, case-sensitive otherwise
+	set smarttab			" insert tabs on the start of a line according to shiftwidth, not tabstop
+	set hlsearch			" highlight search terms
+	set incsearch			" show search matches as you type
+
+" Marks of formatage
+"	set list
+"	set listchars=tab:▸\ ,eol:¬	
+
+	set nocompatible
+
+	set modelines=0
+
+	cmap w!! w !sudo tee %		" You can't stop me, write with admin right
+	
+	
+" Syntax on switch syntax highlighting on, when the terminal has colors
+	if &t_Co > 2 || has("gui_running")
+			syntax on
+			colorscheme desert
+			set guifont=Liberation\ Mono\ 12
+			set lines=24 columns=132	
+	endif
+	
+	filetype plugin indent on
+	
+	
+" Status bar
+	hi StatusLine ctermfg=DarkGrey ctermbg=white
+	set statusline=\ [%n]\ %<%F\ \ \ [%M%R%H%W%Y][%{&ff}]\ \ %=\ Ligne:%l/%L\ Col:%c\ \ \ %p%%\ 
