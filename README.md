@@ -1,4 +1,4 @@
-# vi
+# nano
 
 ![](Screenshot.png)
 
