@@ -1,10 +1,18 @@
-set titlecolor yellow,black	# foregroundColorCode,backgroundColorCode
-set numbercolor yellow,black	# white, black, blue, green, red, cyan, yellow, magenta
-set statuscolor red,black
-set keycolor white,black
-#set functioncolor yellow,black
-
-set autoindent			# Enabling Auto Indentation
-set linenumbers			# Displaying Line Numbers
+set autoindent		# Enabling Auto Indentation
+set linenumbers		# Displaying Line Numbers
 set mouse			# Enabling Mouse Navigation
-set softwrap			# Enable Word Wrapping
+#	set smooth			# Enable Smooth Scrolling
+set softwrap		# Enable Word Wrapping
+
+
+## by default there are no colors, except for errorcolor.
+#	set titlecolor white,black
+#	set statuscolor white,green
+
+#	set errorcolor white,red
+#	set selectedcolor white,magenta
+set numbercolor orange
+
+# Bar help 
+set keycolor cyan
+#	set functioncolor white
