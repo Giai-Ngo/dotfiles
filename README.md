@@ -8,6 +8,6 @@ Attribution-NonCommercial 2.0 Generic ([CC BY-NC 2.0](https://creativecommons.or
 ![](Screenshot.png)
 
 
-# neovim
+# vim
 
 ![](/nvim/Screenshot.png)
