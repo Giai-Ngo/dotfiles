@@ -27,3 +27,6 @@ unset rc
 
 export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_WAYLAND_DECORATION=adwaita
+
+
+export QT_QPA_PLATFORM="wayland;xcb"
