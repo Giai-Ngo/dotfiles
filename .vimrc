@@ -1,10 +1,10 @@
 
 " General
-	set number		" Line numbers
-	set mouse=a		" Enable your mouse
+	set number			" Line numbers
+	set mouse=a			" Enable your mouse
 	set encoding=utf-8	" The encoding displayed
 	
-	set lbr!		" wrap in word
+	set lbr!			" wrap in word
 	set linespace=6
 	set smartindent		" Makes indenting smart
 	set backspace=indent,eol,start	" allow backspacing over everything in insert mode
@@ -19,14 +19,14 @@
 	set scrolloff=3
 	set showmode
 	set showcmd
-	set hidden		" if hidden is not set, TextEdit might fail.
+	set hidden			" if hidden is not set, TextEdit might fail.
 	set wildmenu
 	set wildmode=list:longest
-	set ruler
+"	set ruler
 	set laststatus=2
-	set undofile
+"	set undofile
 
-	set cmdheight=1		" Better display for messages
+"	set cmdheight=1		" Better display for messages
 
 " Searching
 	set ignorecase		" ignore case when searching
@@ -49,8 +49,8 @@
 	if &t_Co > 2 || has("gui_running")
 			syntax on
 			colorscheme desert
-			set guifont=Liberation\ Mono\ 12
-			set lines=24 columns=132	
+"			set guifont=Liberation\ Mono\ 12
+"			set lines=24 columns=132	
 	endif
 
 	filetype plugin indent on
@@ -181,4 +181,3 @@ call plug#end()
 	" recognized filetypes
 	" these filetypes will have MarkdownPreview... commands
 	let g:mkdp_filetypes = ['markdown']
-
