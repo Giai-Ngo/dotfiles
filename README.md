@@ -5,7 +5,7 @@ Attribution-NonCommercial 2.0 Generic ([CC BY-NC 2.0](https://creativecommons.or
 
 # nano
 
-![](Screenshot.png)
+![](/nvim/Screenshot.png)
 
 
 # neovim
