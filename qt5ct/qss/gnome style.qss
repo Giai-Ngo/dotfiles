@@ -1,3 +1,4 @@
+
 /* Général */
 
 QMenuBar, QMenu, QToolBar, QStatusBar, QFrame, QScrollBar, QTabWidget {
@@ -14,12 +15,13 @@ QWidget {
     background-color: #303030; /* Fond sombre */
     color: #ffffff; /* Texte clair */
     font-family: "Cantarell", sans-serif; /* Police de style GNOME */
-    font-size: 12pt; /* Taille de police */
+    font-size: 11.54pt; /* Taille de police */
 }
 
 
 
 /* Boutons */
+
 QPushButton {
     background-color: #464646; /* Fond des boutons */
     color: #ffffff; /* Texte des boutons */
@@ -35,17 +37,20 @@ QPushButton:hover {
 
 
 /* Champ de saisie */
+
 QLineEdit {
     background-color: #303030; /* Fond sombre */
     color: #ffffff; /* Texte clair */
     border: 1px solid #666666; /* Bordure grise */
     border-radius: 4px; /* Coins arrondis */
     padding: 5px; /* Rembourrage */
+    line-height: 1.5; /* Hauteur de ligne (non supporté directement) */
 }
 
 
 
 /* Combo Box */
+
 QComboBox {
     background-color: #303030; /* Fond sombre */
     color: #ffffff; /* Texte clair */
@@ -54,11 +59,9 @@ QComboBox {
     padding: 5px;  /*Rembourrage */
 }
 
-
 QComboBox::drop-down {
     border: none; /* No border for the dropdown button */
 }
-
 
 QComboBox::item:selected {
     background-color: #0078d7; /* Blue background for selected item */
@@ -71,6 +74,35 @@ QComboBox::drop-down::icon {
     height: 10px; /* Hauteur de l'icône */
     margin: 10px;
 }
+
+
+
+/* Liste et checkBox*/
+
+QListView::item {
+    padding: 5px; /* Espace à l'intérieur des éléments */
+}
+
+QCheckBox {
+    spacing: 5px; /* Espace entre la case à cocher et le texte */
+}
+
+QCheckBox::indicator {
+    margin: 5px; /* Espace autour de la case à cocher */
+}
+
+
+
+/* Tableau et Tree */
+
+QHeaderView::section {
+    padding: 5px; /* Espace à l'intérieur des en-têtes */
+}
+
+QTreeView::item {
+    padding: 5px; /* Espace à l'intérieur des éléments */
+}
+
 
 
 /* Barre de défilement */
@@ -136,6 +168,7 @@ QScrollBar:vertical:disabled {
 
 
 /* Cacher la barre de défilement si non nécessaire */
+
 QScrollArea {
     border: none; /* Pas de bordure */
 }
@@ -147,6 +180,7 @@ QScrollArea::corner {
 
 
 /* Case à cocher */
+
 QCheckBox {
     spacing: 5px; /* Espace entre la case et le label */
 }
@@ -154,6 +188,7 @@ QCheckBox {
 
 
 /* Bouton radio */
+
 QRadioButton {
     spacing: 5px; /* Espace entre le bouton et le label */
 }
@@ -171,8 +206,8 @@ QToolTip{
 
 
 
-
 /* Menu */
+
 QMenuBar {
     background-color: #2a2a2a; /* Fond de la barre de menu */
     color: white; /* Couleur du texte du menu */
@@ -218,6 +253,7 @@ QTabBar::tab:hover {
 }
 
 
+/* MenuBar */
 
 QMenuBar {
     color: #e0e0e0; /* Couleur du texte des onglets non sélectionnés */
