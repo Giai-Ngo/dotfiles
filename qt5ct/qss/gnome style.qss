@@ -56,7 +56,7 @@ QComboBox {
     color: #ffffff; /* Texte clair */
     border: 1px solid #666666; /* Bordure grise */
     border-radius: 4px; /* Coins arrondis */
-    padding: 5px;  /*Rembourrage */
+    padding: 4px;  /*Rembourrage */
 }
 
 QComboBox::drop-down {
@@ -80,15 +80,15 @@ QComboBox::drop-down::icon {
 /* Liste et checkBox*/
 
 QListView::item {
-    padding: 5px; /* Espace à l'intérieur des éléments */
+    padding: 4px; /* Espace à l'intérieur des éléments */
 }
 
 QCheckBox {
-    spacing: 5px; /* Espace entre la case à cocher et le texte */
+    spacing: 4px; /* Espace entre la case à cocher et le texte */
 }
 
 QCheckBox::indicator {
-    margin: 5px; /* Espace autour de la case à cocher */
+    margin: 4px; /* Espace autour de la case à cocher */
 }
 
 
@@ -96,11 +96,11 @@ QCheckBox::indicator {
 /* Tableau et Tree */
 
 QHeaderView::section {
-    padding: 5px; /* Espace à l'intérieur des en-têtes */
+    padding: 4px; /* Espace à l'intérieur des en-têtes */
 }
 
 QTreeView::item {
-    padding: 5px; /* Espace à l'intérieur des éléments */
+    padding: 4px; /* Espace à l'intérieur des éléments */
 }
 
 
