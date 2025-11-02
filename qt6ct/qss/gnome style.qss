@@ -49,6 +49,11 @@ QLineEdit {
     line-height: 1.5; /* Hauteur de ligne (non supporté directement) */
 }
 
+QLineEdit[placeholderText] {
+   color: #303030;
+}
+
+
 
 
 /* Combo Box */
